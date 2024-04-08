@@ -135,10 +135,8 @@ public class Login extends JDialog {
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                String userName = textFieldUserName.getText();
-//                String password = new String(textFieldPassword.getPassword());
-                String userName = "user1";
-                String password = "password1";
+                String userName = textFieldUserName.getText();
+                String password = new String(textFieldPassword.getPassword());
 
                 // Simulated user authentication
                 List<User> userList = UserList.getUserList();
